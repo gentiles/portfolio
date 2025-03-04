@@ -1,9 +1,16 @@
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-
+import Skills from "./components/Skills";
+import About from "./components/About";
+import Project from "./components/Project";
 function App() {
   return (
     <>
       <Navbar />
+      <Hero />
+      <Skills />
+      <About />
+      <Project />
     </>
   );
 }

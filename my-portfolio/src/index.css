@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
+@layer components {
+  .align-element {
+    @apply mx-auto max-w-7xl px-8;
+  }
+}
+
+/* .text-skills {
+}
+.text-skills h2 {
+  display: flex;
+  justify-content: center;
+} */
