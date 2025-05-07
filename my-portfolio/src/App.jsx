@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import About from "./components/About";
 import Project from "./components/Project";
+import "./FetchProject";
 function App() {
   return (
     <>

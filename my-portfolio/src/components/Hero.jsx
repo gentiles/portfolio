@@ -1,5 +1,7 @@
 import heroImg from "../assets/hero.svg";
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
+import { FaFileDownload } from "react-icons/fa";
+
 const Hero = () => {
   return (
     <div className="bg-emerald-100 py-24">
@@ -21,6 +23,16 @@ const Hero = () => {
             </a>
             <a href="#">
               <FaTwitterSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+            </a>
+          </div>
+          <div>
+            <a
+              href="/resume.pdf"
+              download
+              className="flex items-center gap-2 bg-emerald-600 text-white px-4 py-2 rounded-lg hover:bg-emerald-700 duration-300 w-28 mt-2"
+            >
+              <FaFileDownload className="h-5 w-5" />
+              <span>Resume</span>
             </a>
           </div>
         </article>
